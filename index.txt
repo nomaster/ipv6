@@ -1,0 +1,82 @@
+Hallo Du,
+
+Kennst Du schon das Internet?
+
+Das Internet ist ein globales, dezentrales, universelles
+Telekommunikationsmittel. Es dient der Verbindung der Menschen, der Verbreitung
+ihrer Gedanken und der Vernetzung der Gesellschaft. Es wird von einer
+Gemeinschaft mehr oder weniger amibitionierter Techniker_innen gebaut und
+gewartet. Mit der Idee von Freheit wurde von einem offenen Gremium ein Standard
+geschaffen, der alle Rechner auf der Welt vernetzen soll.
+
+Zwei Mal.
+
+Beim ersten Versuch waren die Rechner noch teuer und es war anscheinend noch
+nicht breiter Konsens, dass jeder Pimpf auf dem Planeten zwei Laptops, ein
+Tablet, ein Smartphone und irgendwelche Things mit IP dran bekommen wird.
+Dadurch sind die Adressen ausgegangen. Und das bereits in den Neunzigern.
+
+Leute, lest die Geschichtsbücher (Wikipedia) und seht, dass bereits bevor wir
+in Doitschland selbstgelötete Modems (Datenklos) an den Start bekommen haben,
+die Adressen alle waren. Die Amerikaner haben ihre Privilegien nicht richtig
+gecheckt und erstmal die Hälfte für sich behalten. Von der anderen Hälfte ist
+der größere Teil in Oiropa geblieben und so kamen wir dahin, dass die meisten
+Menschen auf der Welt gar keine Chance mehr auf Adressen haben.
+
+Beim zweiten Versuch wurde genug Platz gemacht und 128 Bit lange Adressen
+spezifiziert. Nun gibt es diese Pappnasen die meinen, dass "das bestimmt bald
+nicht mehr reichen wird", weil die in Mathe nicht aufgepasst haben und 2 hoch
+128 für die vermutlich vier Mal so viel ist wie 2 hoch 32.
+
+Wen man es so macht, wie ursprünglich gedacht, dann bekommt jedes lokale
+Netzwerk 64 bit Adressen. Das genügt, um jeden Rechner auf der ganzen Welt eine
+Adresse zu verpassen. Und von diesen Netzwerken bekommt jeder Standort so
+viele, wie er in virtuellen LANs nur irgendwie verarbeiten kann, also 2 hoch 8.
+Und von diesen haufenweisen Subnetzen kann jeder Provider alle Kunden auf der
+Welt einen Haufen geben. Und jede Registrierungsstelle kann alle Provider auf
+der Welt versorgen. Und wenn das gemacht ist, haben wir immer noch nicht alle
+Adressen verteilt. 2 hoch 128 reicht vermutlich, um mehrere Planeten zu
+adressieren. (was soll's, ich wollte eh auswandern)
+
+Dennoch gibt es hierzulande immens viele und woanders nicht ganz so viele
+Knalltüten, die der Meinung sind, man bräuchte IPv6 nicht. Weil, IPv4 reiche ja
+auch. Also erstens ist das echt schade, dass man keine
+Ende-zu-Ende-Konnektivität hat. Ich kann also leider nicht Services bei mir zu
+Hause laufen lassen (Glasfaser, jetzt!). Und selbst wenn ich das nicht wollte,
+kommen wir mit IPv4 sehr bald nicht mehr weiter. Die Scheiße in Tüten heißt NAT
+und läuft auch bei DIR zu Hause. Dein Router muss immer Fräulein-vom-Amt
+spielen, wenn ein Gerät eine Verbindung aufmachen will. Tja, das macht Arbeit.
+
+Das liegt daran, dass ein NAT-Router ja nur eine Adresse hat, unter der er
+mehrere Geräte erreichbar machen muss. Ob da nun ein Webserver läuft oder
+nicht: für eine Verbindung sind immer Ziel- und Quelladresse notwendig. Und die
+Quelladresse tauscht der NAT-Router bei ausgehenden Verbindungen aus, so dass
+da nicht mehr die private Adresse steht, die nur lokal gülte, sondern seine
+externe. Dann kommen die Päckchen auf dem Rückweg an und der NAT-Router guckt
+in seine Verbinungstabelle, um den rechtmäßigen Empfänger herauszufinden. Das
+kostet CPU-Zeit. Und das ist Geld.
+
+Ob der Router zu Hause dann statt 5 Watt vielleicht 8 verbraucht, dass
+interessiert den Verbraucher natürlich nicht. Dummerweise gehen den Providern
+gerade dermaßen die Adressen aus, dass sie NAT-Routing-Appliances hinstellen
+müssen, die das Spielchen noch einmal machen mit den Adressen, die sie ihren
+Kunden gegegben haben. Appliance, das klingt teuer und ist es natürlich auch.
+Und was ist, wenn diese Kisten auch dicht sind? Ende im Gelände.
+
+Da fragt man sich, warum die meisten Contentprovider es immer noch nicht auf
+die Kette bekommen, ihre Dienste per IPv6 zugänglich zu machen. Leute, checkt
+mal eure Privilegien. Da sagen die "hat ja eh keiner". Das ist falsch, denn
+längst fangen die Telkos an, auch v6 zu verteilen. Zumindest deswegen, um Last
+von ihren arschteuren NAT-Router-Aplliances runter zu kriegen. Und bei den
+Contentprovidern sollte das langsam mal so ankommen. Ach nein, die reden ja
+nicht miteinander!
+
+Also wenn auch Du bei einem Provider arbeitest, und wenn Du verstehst, warum
+das so nicht weitergeht, dann geh hin und tue es selber:
+
+Führe IPv6 ein!
+
+IPv6, jetzt!
+
+Cheers,
+nomaster :)
