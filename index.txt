@@ -60,7 +60,7 @@ Ob der Router zu Hause dann statt 5 Watt vielleicht 8 verbraucht, dass
 interessiert den Verbraucher natürlich nicht. Dummerweise gehen den Providern
 gerade dermaßen die Adressen aus, dass sie NAT-Routing-Appliances hinstellen
 müssen, die das Spielchen noch einmal machen mit den Adressen, die sie ihren
-Kunden gegegben haben. Appliance, das klingt teuer und ist es natürlich auch.
+Kunden gegeben haben. Appliance, das klingt teuer und ist es natürlich auch.
 Und was ist, wenn diese Kisten auch dicht sind? Ende im Gelände.
 
 Da fragt man sich, warum die meisten Contentprovider es immer noch nicht auf
