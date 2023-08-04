@@ -1,2 +1,3 @@
 / /index.txt 200
 /.well-known/webfinger https://mastodon.ipv6.jetzt/.well-known/webfinger 200!
+/.well-known/host-meta https://mastodon.ipv6.jetzt/.well-known/host-meta 200!
