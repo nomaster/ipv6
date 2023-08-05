@@ -1,3 +1,6 @@
 / /index.txt 200
 /.well-known/webfinger https://mastodon.ipv6.jetzt/.well-known/webfinger 200!
 /.well-known/host-meta https://mastodon.ipv6.jetzt/.well-known/host-meta 200!
+/.well-known/node-info https://mastodon.ipv6.jetzt/.well-known/nodeinfo 200!
+/.well-known/change-password https://mastodon.ipv6.jetzt/.well-known/change-password 200!
+/.well-known/keybase-proof-config https://mastodon.ipv6.jetzt/.well-known/keybase-proof-config 200!
